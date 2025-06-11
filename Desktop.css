@@ -1,0 +1,123 @@
+
+
+body {
+    background-image: url('images/windows11-alt1-wallpaper.webp');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: repeat; /* Evita que a imagem se repita */
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+
+}
+
+.barra-tarefas {
+    width: 100%;
+    height: 54px;
+    background: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    margin: 1px;
+    
+}
+
+.windows-logo {
+    width: 48px;
+    height: 45px;
+}
+
+.apps {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    left: 600px;
+}
+
+.app-icon {
+    width: 38px;
+    cursor: pointer;
+}
+
+.barra-status {
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  color: black;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 13px;
+}
+
+.icone {
+  font-weight: bold;
+}
+
+.icone:first-child {
+  transform: rotate(180deg); /* seta para cima */
+}
+
+.hora-data {
+  text-align: right;
+}
+
+.Area-trabalho{
+    height: 48px;
+
+}
+
+.desktop-icones {
+    display: flex;
+    gap: 27px; /* espaçamento entre os ícones */
+    padding: 10px;
+}
+
+.desktop-icones {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+.Lixeira {
+    width: 40px;       /* largura reduzida */
+    height: 50px;      /* altura reduzida */
+    text-align: center;
+    color: white;
+    font-size: 15px;   /* fonte menor */
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+
+}
+
+.Lixeira img {
+    width: 40px;       /* tamanho menor do ícone */
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Chrome{
+     width: 40px;       /* largura reduzida */
+    height: 50px;      /* altura reduzida */
+    text-align: center;
+    color: white;
+    font-size: 15px;   /* fonte menor */
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+
+}
+
+.Chrome img {
+     width: 40px;     
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.desktop-icones:hover{
+
+}
