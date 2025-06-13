@@ -1,0 +1,108 @@
+body{
+   margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('images/windows11-wallpaper.jpg');
+    background-size: cover;          /* cobre toda a tela */
+    background-position: center;     /* centraliza a imagem */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: fixed;
+    overflow: hidden;
+  }
+
+   img {
+  width: 150px; /* Define a largura */
+  height: 150px; /* Define a altura */
+}
+
+
+.Usuario {
+  display: flex;
+  height: 100vh;
+  margin-top: -60px; /* Move a div para cima */
+}
+.Usuario {
+  display: flex;
+  flex-direction: column; /* Organiza os itens em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center;
+}
+
+.Daniel {
+  margin-top: 10px; /* Ajuste o espaçamento */
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 27px;
+}
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  
+
+}
+
+
+.password-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(3, 3, 3, 0.401);
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;
+}
+
+.password-container{
+    margin-top: -15%;
+}
+
+.password-container input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  
+}
+
+.password-container button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.links a:hover {
+  color: rgba(255, 254, 254, 0.542);
+     text-decoration: underline;
+}
+
+.Botão:hover{
+    color: rgba(255, 253, 253, 0.647);
+ 
+
+}
+
+.Clientes{
+
+}
